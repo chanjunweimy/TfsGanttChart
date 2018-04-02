@@ -27,8 +27,8 @@ export class GanttComponent implements OnInit {
         const data = [
             {id: 1, text: 'Task #1', start_date: '2017-04-15 00:00', duration: 3, progress: 0.6},
             {id: 2, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
-            {id: 3, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
-            {id: 4, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
+            {id: 3, text: 'Task #3', start_date: '2017-04-18 00:00', duration: 61, progress: 0.4},
+            {id: 4, text: 'Task #4', start_date: '2017-04-18 00:00', duration: 15, progress: 0.4},
             {id: 5, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
             {id: 6, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
             {id: 7, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
@@ -44,7 +44,7 @@ export class GanttComponent implements OnInit {
             {id: 17, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
             {id: 18, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
             {id: 19, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
-            {id: 20, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
+            {id: 20, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 10, progress: 0.4},
             {id: 21, text: 'Task #2', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
             {id: 22, text: 'Task #22', start_date: '2017-04-18 00:00', duration: 3, progress: 0.4},
         ];
